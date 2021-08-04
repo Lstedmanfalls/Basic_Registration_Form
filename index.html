@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=en-US>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+        <meta name="description" content="Registration form assignment for Week 1 of the Coding Dojo bootcamp's Web Fundamentals stack">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <header>
+                    <h1>Basic Registration Form</h1>
+                </header>
+                <form class="form">
+                    <label for="first_name">First Name:
+                        <input type="text" id="first_name" name="first_name" placeholder="Your first name">
+                    </label>
+                    <br>
+                            
+                    <label for="last_name">Last Name:
+                        <input type="text" id="last_name" name="last_name" placeholder="Your last name">
+                    </label>
+                    <br>
+                            
+                    <label for="email">Email:
+                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+                    </label>
+                    <br>
+
+                    <label for="password">Password:
+                        <input type="password" id="password" name="password" placeholder="Choose a strong password" required>
+                    </label>
+                    <br>
+                            
+                    <label for="pw_confirm">Confirm Password:
+                        <input type="password" id="pw_confirm" name="pw_confirm" placeholder="Retype your password" required>
+                    </label>
+                    <br>
+
+                    <label for="birthday">Birthday:
+                        <input type="date" id="birthday" name="birthday">
+                    </label>
+                    
+                    <p class="title">What is your gender?</p>
+                    <div id="gender">
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label class="gender" for="female">Female</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label class="gender" for="male">Male</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label class="gender" for="other">Other</label>
+                        <input type="radio" id="decline" name="gender" value="decline">
+                        <label class="gender" for="decline">Prefer not to answer</label>
+                    </div>
+                        
+                    <p class="title">Tell us a little bit about yourself!</p>
+                    <textarea id="description" name="description" placeholder="A brief description about yourself" rows="10" cols="80"></textarea>
+                        
+                    <p class="title">What is your favorite front-end language?</p>
+                    <div id="lang">
+                        <select id="coding_lang" name="coding_lang">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                        </select>
+                    </div>
+                    <br>
+                
+                    <input id="submit" type="submit" value="Submit My Answers">
+                </form>
+            </div>
+        </main>>
+    </body>
+</html>

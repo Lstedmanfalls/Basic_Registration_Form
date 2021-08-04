@@ -1,0 +1,108 @@
+* {
+    font-family: verdana;
+    font-size: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    background-color:lightgrey;
+    padding: 3rem;
+    border: 1px solid black;
+}
+
+label {
+    font-size: 2rem;
+    padding: 0 0 1rem 0; 
+}
+
+input {
+    font-size: 1.5rem;
+    padding: .3rem .5rem .3rem .5rem;
+}
+
+input:focus{
+    background-color:lightblue
+}
+
+p {
+    font-size: 2rem;
+}
+
+#gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gender {
+    font-size: 1.7rem;
+    padding: 0 1rem 1rem .3rem;
+}
+
+.title {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    padding: .5rem;
+}
+
+textarea:focus{
+    background: lightblue;
+}
+
+::placeholder {
+    font-size: 1.5rem;
+    color: darkslategrey;
+}
+
+#lang {
+    display: flex;
+    justify-content: center;
+}
+
+#coding_lang {
+    font-size: 1.7rem;
+    padding: .5rem;
+    width: 25%;
+}
+
+option {
+    font-size: 1.7rem;
+    padding: .1rem;
+}
+
+#submit {
+    font-size: 2rem;
+    padding: .7rem 2rem .7rem 2rem;
+    margin-top: 1.5rem;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#submit:hover {
+    background-color: lightgreen;
+    border: 1px solid black;
+}
